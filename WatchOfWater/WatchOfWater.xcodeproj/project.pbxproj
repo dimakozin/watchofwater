@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		85887A5E2E6492E600AF3881 /* WatchOfWater Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 85887A5D2E6492E600AF3881 /* WatchOfWater Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AB1000100000000000000001 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1100010000000000000001 /* WidgetKit.framework */; };
+		AB1000200000000000000001 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1100020000000000000001 /* SwiftUI.framework */; };
+		AB1000300000000000000001 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1200010000000000000001 /* AppIntent.swift */; };
+		AB1000400000000000000001 /* WaterProgressWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1200020000000000000001 /* WaterProgressWidget.swift */; };
+		AB1000500000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1200030000000000000001 /* Assets.xcassets */; };
+		AB1000600000000000000001 /* WaterProgressWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AB1100030000000000000001 /* WaterProgressWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +52,17 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB1500010000000000000001 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AB1000600000000000000001 /* WaterProgressWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +70,12 @@
 		85887A5D2E6492E600AF3881 /* WatchOfWater Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchOfWater Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85887A6C2E6492E800AF3881 /* WatchOfWater Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchOfWater Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85887A762E6492E800AF3881 /* WatchOfWater Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchOfWater Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1100010000000000000001 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		AB1100020000000000000001 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		AB1100030000000000000001 /* WaterProgressWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WaterProgressWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1200010000000000000001 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		AB1200020000000000000001 /* WaterProgressWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterProgressWidget.swift; sourceTree = "<group>"; };
+		AB1200030000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -95,6 +118,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB1400010000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1000200000000000000001 /* SwiftUI.framework in Frameworks */,
+				AB1000100000000000000001 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -104,6 +136,8 @@
 				85887A612E6492E600AF3881 /* WatchOfWater Watch App */,
 				85887A6F2E6492E800AF3881 /* WatchOfWater Watch AppTests */,
 				85887A792E6492E800AF3881 /* WatchOfWater Watch AppUITests */,
+				AB1300010000000000000001 /* Frameworks */,
+				AB1300020000000000000001 /* WaterProgressWidget */,
 				85887A582E6492E600AF3881 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,8 +149,28 @@
 				85887A5D2E6492E600AF3881 /* WatchOfWater Watch App.app */,
 				85887A6C2E6492E800AF3881 /* WatchOfWater Watch AppTests.xctest */,
 				85887A762E6492E800AF3881 /* WatchOfWater Watch AppUITests.xctest */,
+				AB1100030000000000000001 /* WaterProgressWidgetExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AB1300010000000000000001 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB1100010000000000000001 /* WidgetKit.framework */,
+				AB1100020000000000000001 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB1300020000000000000001 /* WaterProgressWidget */ = {
+			isa = PBXGroup;
+			children = (
+				AB1200010000000000000001 /* AppIntent.swift */,
+				AB1200020000000000000001 /* WaterProgressWidget.swift */,
+				AB1200030000000000000001 /* Assets.xcassets */,
+			);
+			path = WaterProgressWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +202,7 @@
 				85887A592E6492E600AF3881 /* Sources */,
 				85887A5A2E6492E600AF3881 /* Frameworks */,
 				85887A5B2E6492E600AF3881 /* Resources */,
+				AB1500010000000000000001 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -209,6 +264,25 @@
 			productReference = 85887A762E6492E800AF3881 /* WatchOfWater Watch AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		AB1600010000000000000001 /* WaterProgressWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB1600040000000000000001 /* Build configuration list for PBXNativeTarget "WaterProgressWidgetExtension" */;
+			buildPhases = (
+				AB1400020000000000000001 /* Sources */,
+				AB1400010000000000000001 /* Frameworks */,
+				AB1400030000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterProgressWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = WaterProgressWidgetExtension;
+			productReference = AB1100030000000000000001 /* WaterProgressWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -253,6 +327,7 @@
 				85887A5C2E6492E600AF3881 /* WatchOfWater Watch App */,
 				85887A6B2E6492E800AF3881 /* WatchOfWater Watch AppTests */,
 				85887A752E6492E800AF3881 /* WatchOfWater Watch AppUITests */,
+				AB1600010000000000000001 /* WaterProgressWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -286,6 +361,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB1400030000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1000500000000000000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -307,6 +390,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB1400020000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1000300000000000000001 /* AppIntent.swift in Sources */,
+				AB1000400000000000000001 /* WaterProgressWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,12 +544,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WatchOfWater Watch App/WatchOfWater Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 54AX69J3MV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = WatchOfWater;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "WatchOfWater читает вес, рост и потребление воды из Health для рекомендации цели и статистики.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "WatchOfWater записывает данные о потреблении воды в Health.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -481,12 +576,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "WatchOfWater Watch App/WatchOfWater Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 54AX69J3MV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = WatchOfWater;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "WatchOfWater читает вес, рост и потребление воды из Health для рекомендации цели и статистики.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "WatchOfWater записывает данные о потреблении воды в Health.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -617,6 +715,65 @@
 			};
 			name = Release;
 		};
+		AB1600020000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WaterProgressWidget/WaterProgressWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54AX69J3MV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WaterProgressWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WaterProgressWidget;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dimakozin.WatchOfWater.watchkitapp.WaterProgressWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		AB1600030000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WaterProgressWidget/WaterProgressWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54AX69J3MV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WaterProgressWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WaterProgressWidget;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dimakozin.WatchOfWater.watchkitapp.WaterProgressWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -661,6 +818,15 @@
 			buildConfigurations = (
 				85887A8B2E6492E800AF3881 /* Debug */,
 				85887A8C2E6492E800AF3881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB1600040000000000000001 /* Build configuration list for PBXNativeTarget "WaterProgressWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1600020000000000000001 /* Debug */,
+				AB1600030000000000000001 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
