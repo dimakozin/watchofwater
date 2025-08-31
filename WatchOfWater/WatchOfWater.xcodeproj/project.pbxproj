@@ -7,41 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		85887A212E6492A800AF3881 /* WatchOfWater Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 85887A202E6492A800AF3881 /* WatchOfWater Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		85887A5E2E6492E600AF3881 /* WatchOfWater Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 85887A5D2E6492E600AF3881 /* WatchOfWater Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		85887A222E6492A800AF3881 /* PBXContainerItemProxy */ = {
+		85887A5F2E6492E600AF3881 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 85887A142E6492A700AF3881 /* Project object */;
+			containerPortal = 85887A512E6492E600AF3881 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 85887A1F2E6492A800AF3881;
+			remoteGlobalIDString = 85887A5C2E6492E600AF3881;
 			remoteInfo = "WatchOfWater Watch App";
 		};
-		85887A302E6492A900AF3881 /* PBXContainerItemProxy */ = {
+		85887A6D2E6492E800AF3881 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 85887A142E6492A700AF3881 /* Project object */;
+			containerPortal = 85887A512E6492E600AF3881 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 85887A1F2E6492A800AF3881;
+			remoteGlobalIDString = 85887A5C2E6492E600AF3881;
 			remoteInfo = "WatchOfWater Watch App";
 		};
-		85887A3A2E6492A900AF3881 /* PBXContainerItemProxy */ = {
+		85887A772E6492E800AF3881 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 85887A142E6492A700AF3881 /* Project object */;
+			containerPortal = 85887A512E6492E600AF3881 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 85887A1F2E6492A800AF3881;
+			remoteGlobalIDString = 85887A5C2E6492E600AF3881;
 			remoteInfo = "WatchOfWater Watch App";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		85887A462E6492A900AF3881 /* Embed Watch Content */ = {
+		85887A832E6492E800AF3881 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				85887A212E6492A800AF3881 /* WatchOfWater Watch App.app in Embed Watch Content */,
+				85887A5E2E6492E600AF3881 /* WatchOfWater Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,24 +49,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		85887A1A2E6492A800AF3881 /* WatchOfWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchOfWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		85887A202E6492A800AF3881 /* WatchOfWater Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchOfWater Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		85887A2F2E6492A900AF3881 /* WatchOfWater Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchOfWater Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		85887A392E6492A900AF3881 /* WatchOfWater Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchOfWater Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85887A572E6492E600AF3881 /* WatchOfWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchOfWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85887A5D2E6492E600AF3881 /* WatchOfWater Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchOfWater Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85887A6C2E6492E800AF3881 /* WatchOfWater Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchOfWater Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85887A762E6492E800AF3881 /* WatchOfWater Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchOfWater Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		85887A242E6492A800AF3881 /* WatchOfWater Watch App */ = {
+		85887A612E6492E600AF3881 /* WatchOfWater Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "WatchOfWater Watch App";
 			sourceTree = "<group>";
 		};
-		85887A322E6492A900AF3881 /* WatchOfWater Watch AppTests */ = {
+		85887A6F2E6492E800AF3881 /* WatchOfWater Watch AppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "WatchOfWater Watch AppTests";
 			sourceTree = "<group>";
 		};
-		85887A3C2E6492A900AF3881 /* WatchOfWater Watch AppUITests */ = {
+		85887A792E6492E800AF3881 /* WatchOfWater Watch AppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "WatchOfWater Watch AppUITests";
 			sourceTree = "<group>";
@@ -74,21 +74,21 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		85887A1D2E6492A800AF3881 /* Frameworks */ = {
+		85887A5A2E6492E600AF3881 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85887A2C2E6492A900AF3881 /* Frameworks */ = {
+		85887A692E6492E800AF3881 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85887A362E6492A900AF3881 /* Frameworks */ = {
+		85887A732E6492E800AF3881 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -98,23 +98,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		85887A132E6492A700AF3881 = {
+		85887A502E6492E600AF3881 = {
 			isa = PBXGroup;
 			children = (
-				85887A242E6492A800AF3881 /* WatchOfWater Watch App */,
-				85887A322E6492A900AF3881 /* WatchOfWater Watch AppTests */,
-				85887A3C2E6492A900AF3881 /* WatchOfWater Watch AppUITests */,
-				85887A1B2E6492A800AF3881 /* Products */,
+				85887A612E6492E600AF3881 /* WatchOfWater Watch App */,
+				85887A6F2E6492E800AF3881 /* WatchOfWater Watch AppTests */,
+				85887A792E6492E800AF3881 /* WatchOfWater Watch AppUITests */,
+				85887A582E6492E600AF3881 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		85887A1B2E6492A800AF3881 /* Products */ = {
+		85887A582E6492E600AF3881 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				85887A1A2E6492A800AF3881 /* WatchOfWater.app */,
-				85887A202E6492A800AF3881 /* WatchOfWater Watch App.app */,
-				85887A2F2E6492A900AF3881 /* WatchOfWater Watch AppTests.xctest */,
-				85887A392E6492A900AF3881 /* WatchOfWater Watch AppUITests.xctest */,
+				85887A572E6492E600AF3881 /* WatchOfWater.app */,
+				85887A5D2E6492E600AF3881 /* WatchOfWater Watch App.app */,
+				85887A6C2E6492E800AF3881 /* WatchOfWater Watch AppTests.xctest */,
+				85887A762E6492E800AF3881 /* WatchOfWater Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,164 +122,164 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		85887A192E6492A800AF3881 /* WatchOfWater */ = {
+		85887A562E6492E600AF3881 /* WatchOfWater */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85887A472E6492A900AF3881 /* Build configuration list for PBXNativeTarget "WatchOfWater" */;
+			buildConfigurationList = 85887A842E6492E800AF3881 /* Build configuration list for PBXNativeTarget "WatchOfWater" */;
 			buildPhases = (
-				85887A182E6492A800AF3881 /* Resources */,
-				85887A462E6492A900AF3881 /* Embed Watch Content */,
+				85887A552E6492E600AF3881 /* Resources */,
+				85887A832E6492E800AF3881 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				85887A232E6492A800AF3881 /* PBXTargetDependency */,
+				85887A602E6492E600AF3881 /* PBXTargetDependency */,
 			);
 			name = WatchOfWater;
 			packageProductDependencies = (
 			);
 			productName = WatchOfWater;
-			productReference = 85887A1A2E6492A800AF3881 /* WatchOfWater.app */;
+			productReference = 85887A572E6492E600AF3881 /* WatchOfWater.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		85887A1F2E6492A800AF3881 /* WatchOfWater Watch App */ = {
+		85887A5C2E6492E600AF3881 /* WatchOfWater Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85887A432E6492A900AF3881 /* Build configuration list for PBXNativeTarget "WatchOfWater Watch App" */;
+			buildConfigurationList = 85887A802E6492E800AF3881 /* Build configuration list for PBXNativeTarget "WatchOfWater Watch App" */;
 			buildPhases = (
-				85887A1C2E6492A800AF3881 /* Sources */,
-				85887A1D2E6492A800AF3881 /* Frameworks */,
-				85887A1E2E6492A800AF3881 /* Resources */,
+				85887A592E6492E600AF3881 /* Sources */,
+				85887A5A2E6492E600AF3881 /* Frameworks */,
+				85887A5B2E6492E600AF3881 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				85887A242E6492A800AF3881 /* WatchOfWater Watch App */,
+				85887A612E6492E600AF3881 /* WatchOfWater Watch App */,
 			);
 			name = "WatchOfWater Watch App";
 			packageProductDependencies = (
 			);
 			productName = "WatchOfWater Watch App";
-			productReference = 85887A202E6492A800AF3881 /* WatchOfWater Watch App.app */;
+			productReference = 85887A5D2E6492E600AF3881 /* WatchOfWater Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		85887A2E2E6492A900AF3881 /* WatchOfWater Watch AppTests */ = {
+		85887A6B2E6492E800AF3881 /* WatchOfWater Watch AppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85887A4A2E6492A900AF3881 /* Build configuration list for PBXNativeTarget "WatchOfWater Watch AppTests" */;
+			buildConfigurationList = 85887A872E6492E800AF3881 /* Build configuration list for PBXNativeTarget "WatchOfWater Watch AppTests" */;
 			buildPhases = (
-				85887A2B2E6492A900AF3881 /* Sources */,
-				85887A2C2E6492A900AF3881 /* Frameworks */,
-				85887A2D2E6492A900AF3881 /* Resources */,
+				85887A682E6492E800AF3881 /* Sources */,
+				85887A692E6492E800AF3881 /* Frameworks */,
+				85887A6A2E6492E800AF3881 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				85887A312E6492A900AF3881 /* PBXTargetDependency */,
+				85887A6E2E6492E800AF3881 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				85887A322E6492A900AF3881 /* WatchOfWater Watch AppTests */,
+				85887A6F2E6492E800AF3881 /* WatchOfWater Watch AppTests */,
 			);
 			name = "WatchOfWater Watch AppTests";
 			packageProductDependencies = (
 			);
 			productName = "WatchOfWater Watch AppTests";
-			productReference = 85887A2F2E6492A900AF3881 /* WatchOfWater Watch AppTests.xctest */;
+			productReference = 85887A6C2E6492E800AF3881 /* WatchOfWater Watch AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		85887A382E6492A900AF3881 /* WatchOfWater Watch AppUITests */ = {
+		85887A752E6492E800AF3881 /* WatchOfWater Watch AppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85887A4D2E6492A900AF3881 /* Build configuration list for PBXNativeTarget "WatchOfWater Watch AppUITests" */;
+			buildConfigurationList = 85887A8A2E6492E800AF3881 /* Build configuration list for PBXNativeTarget "WatchOfWater Watch AppUITests" */;
 			buildPhases = (
-				85887A352E6492A900AF3881 /* Sources */,
-				85887A362E6492A900AF3881 /* Frameworks */,
-				85887A372E6492A900AF3881 /* Resources */,
+				85887A722E6492E800AF3881 /* Sources */,
+				85887A732E6492E800AF3881 /* Frameworks */,
+				85887A742E6492E800AF3881 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				85887A3B2E6492A900AF3881 /* PBXTargetDependency */,
+				85887A782E6492E800AF3881 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				85887A3C2E6492A900AF3881 /* WatchOfWater Watch AppUITests */,
+				85887A792E6492E800AF3881 /* WatchOfWater Watch AppUITests */,
 			);
 			name = "WatchOfWater Watch AppUITests";
 			packageProductDependencies = (
 			);
 			productName = "WatchOfWater Watch AppUITests";
-			productReference = 85887A392E6492A900AF3881 /* WatchOfWater Watch AppUITests.xctest */;
+			productReference = 85887A762E6492E800AF3881 /* WatchOfWater Watch AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		85887A142E6492A700AF3881 /* Project object */ = {
+		85887A512E6492E600AF3881 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					85887A192E6492A800AF3881 = {
+					85887A562E6492E600AF3881 = {
 						CreatedOnToolsVersion = 16.4;
 					};
-					85887A1F2E6492A800AF3881 = {
+					85887A5C2E6492E600AF3881 = {
 						CreatedOnToolsVersion = 16.4;
 					};
-					85887A2E2E6492A900AF3881 = {
+					85887A6B2E6492E800AF3881 = {
 						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 85887A1F2E6492A800AF3881;
+						TestTargetID = 85887A5C2E6492E600AF3881;
 					};
-					85887A382E6492A900AF3881 = {
+					85887A752E6492E800AF3881 = {
 						CreatedOnToolsVersion = 16.4;
-						TestTargetID = 85887A1F2E6492A800AF3881;
+						TestTargetID = 85887A5C2E6492E600AF3881;
 					};
 				};
 			};
-			buildConfigurationList = 85887A172E6492A700AF3881 /* Build configuration list for PBXProject "WatchOfWater" */;
+			buildConfigurationList = 85887A542E6492E600AF3881 /* Build configuration list for PBXProject "WatchOfWater" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 85887A132E6492A700AF3881;
+			mainGroup = 85887A502E6492E600AF3881;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 85887A1B2E6492A800AF3881 /* Products */;
+			productRefGroup = 85887A582E6492E600AF3881 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				85887A192E6492A800AF3881 /* WatchOfWater */,
-				85887A1F2E6492A800AF3881 /* WatchOfWater Watch App */,
-				85887A2E2E6492A900AF3881 /* WatchOfWater Watch AppTests */,
-				85887A382E6492A900AF3881 /* WatchOfWater Watch AppUITests */,
+				85887A562E6492E600AF3881 /* WatchOfWater */,
+				85887A5C2E6492E600AF3881 /* WatchOfWater Watch App */,
+				85887A6B2E6492E800AF3881 /* WatchOfWater Watch AppTests */,
+				85887A752E6492E800AF3881 /* WatchOfWater Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		85887A182E6492A800AF3881 /* Resources */ = {
+		85887A552E6492E600AF3881 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85887A1E2E6492A800AF3881 /* Resources */ = {
+		85887A5B2E6492E600AF3881 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85887A2D2E6492A900AF3881 /* Resources */ = {
+		85887A6A2E6492E800AF3881 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85887A372E6492A900AF3881 /* Resources */ = {
+		85887A742E6492E800AF3881 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -289,21 +289,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		85887A1C2E6492A800AF3881 /* Sources */ = {
+		85887A592E6492E600AF3881 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85887A2B2E6492A900AF3881 /* Sources */ = {
+		85887A682E6492E800AF3881 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85887A352E6492A900AF3881 /* Sources */ = {
+		85887A722E6492E800AF3881 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -313,25 +313,25 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		85887A232E6492A800AF3881 /* PBXTargetDependency */ = {
+		85887A602E6492E600AF3881 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 85887A1F2E6492A800AF3881 /* WatchOfWater Watch App */;
-			targetProxy = 85887A222E6492A800AF3881 /* PBXContainerItemProxy */;
+			target = 85887A5C2E6492E600AF3881 /* WatchOfWater Watch App */;
+			targetProxy = 85887A5F2E6492E600AF3881 /* PBXContainerItemProxy */;
 		};
-		85887A312E6492A900AF3881 /* PBXTargetDependency */ = {
+		85887A6E2E6492E800AF3881 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 85887A1F2E6492A800AF3881 /* WatchOfWater Watch App */;
-			targetProxy = 85887A302E6492A900AF3881 /* PBXContainerItemProxy */;
+			target = 85887A5C2E6492E600AF3881 /* WatchOfWater Watch App */;
+			targetProxy = 85887A6D2E6492E800AF3881 /* PBXContainerItemProxy */;
 		};
-		85887A3B2E6492A900AF3881 /* PBXTargetDependency */ = {
+		85887A782E6492E800AF3881 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 85887A1F2E6492A800AF3881 /* WatchOfWater Watch App */;
-			targetProxy = 85887A3A2E6492A900AF3881 /* PBXContainerItemProxy */;
+			target = 85887A5C2E6492E600AF3881 /* WatchOfWater Watch App */;
+			targetProxy = 85887A772E6492E800AF3881 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		85887A412E6492A900AF3881 /* Debug */ = {
+		85887A7E2E6492E800AF3881 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -393,7 +393,7 @@
 			};
 			name = Debug;
 		};
-		85887A422E6492A900AF3881 /* Release */ = {
+		85887A7F2E6492E800AF3881 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -447,7 +447,7 @@
 			};
 			name = Release;
 		};
-		85887A442E6492A900AF3881 /* Debug */ = {
+		85887A812E6492E800AF3881 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -476,7 +476,7 @@
 			};
 			name = Debug;
 		};
-		85887A452E6492A900AF3881 /* Release */ = {
+		85887A822E6492E800AF3881 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -506,7 +506,7 @@
 			};
 			name = Release;
 		};
-		85887A482E6492A900AF3881 /* Debug */ = {
+		85887A852E6492E800AF3881 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -521,7 +521,7 @@
 			};
 			name = Debug;
 		};
-		85887A492E6492A900AF3881 /* Release */ = {
+		85887A862E6492E800AF3881 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -537,7 +537,7 @@
 			};
 			name = Release;
 		};
-		85887A4B2E6492A900AF3881 /* Debug */ = {
+		85887A882E6492E800AF3881 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -557,7 +557,7 @@
 			};
 			name = Debug;
 		};
-		85887A4C2E6492A900AF3881 /* Release */ = {
+		85887A892E6492E800AF3881 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -578,7 +578,7 @@
 			};
 			name = Release;
 		};
-		85887A4E2E6492A900AF3881 /* Debug */ = {
+		85887A8B2E6492E800AF3881 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -597,7 +597,7 @@
 			};
 			name = Debug;
 		};
-		85887A4F2E6492A900AF3881 /* Release */ = {
+		85887A8C2E6492E800AF3881 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -620,52 +620,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		85887A172E6492A700AF3881 /* Build configuration list for PBXProject "WatchOfWater" */ = {
+		85887A542E6492E600AF3881 /* Build configuration list for PBXProject "WatchOfWater" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85887A412E6492A900AF3881 /* Debug */,
-				85887A422E6492A900AF3881 /* Release */,
+				85887A7E2E6492E800AF3881 /* Debug */,
+				85887A7F2E6492E800AF3881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85887A432E6492A900AF3881 /* Build configuration list for PBXNativeTarget "WatchOfWater Watch App" */ = {
+		85887A802E6492E800AF3881 /* Build configuration list for PBXNativeTarget "WatchOfWater Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85887A442E6492A900AF3881 /* Debug */,
-				85887A452E6492A900AF3881 /* Release */,
+				85887A812E6492E800AF3881 /* Debug */,
+				85887A822E6492E800AF3881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85887A472E6492A900AF3881 /* Build configuration list for PBXNativeTarget "WatchOfWater" */ = {
+		85887A842E6492E800AF3881 /* Build configuration list for PBXNativeTarget "WatchOfWater" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85887A482E6492A900AF3881 /* Debug */,
-				85887A492E6492A900AF3881 /* Release */,
+				85887A852E6492E800AF3881 /* Debug */,
+				85887A862E6492E800AF3881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85887A4A2E6492A900AF3881 /* Build configuration list for PBXNativeTarget "WatchOfWater Watch AppTests" */ = {
+		85887A872E6492E800AF3881 /* Build configuration list for PBXNativeTarget "WatchOfWater Watch AppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85887A4B2E6492A900AF3881 /* Debug */,
-				85887A4C2E6492A900AF3881 /* Release */,
+				85887A882E6492E800AF3881 /* Debug */,
+				85887A892E6492E800AF3881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85887A4D2E6492A900AF3881 /* Build configuration list for PBXNativeTarget "WatchOfWater Watch AppUITests" */ = {
+		85887A8A2E6492E800AF3881 /* Build configuration list for PBXNativeTarget "WatchOfWater Watch AppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85887A4E2E6492A900AF3881 /* Debug */,
-				85887A4F2E6492A900AF3881 /* Release */,
+				85887A8B2E6492E800AF3881 /* Debug */,
+				85887A8C2E6492E800AF3881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 85887A142E6492A700AF3881 /* Project object */;
+	rootObject = 85887A512E6492E600AF3881 /* Project object */;
 }
